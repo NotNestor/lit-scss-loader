@@ -1,8 +1,8 @@
 {
-  "name": "lit-scss-loader",
+  "name": "lit1-scss-loader",
   "author": "Andreas Hahn",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "Automatically generate the style-wrapper that is required for LitElement, simply by importing the CSS/SCSS file",
   "homepage": "https://github.com/drdreo/lit-scss-loader",
   "repository": "https://github.com/drdreo/lit-scss-loader",
@@ -28,19 +28,19 @@
   "devDependencies": {
     "@types/jest": "^29.2.0",
     "@types/node": "16.11.7",
-    "eslint": "4.19.1",
+    "eslint": "^9.21.0",
     "eslint-config-airbnb": "17.0.0",
     "eslint-plugin-import": "2.12.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.9.1",
-    "lit": "2.4.0",
+    "lit-element": "2.4.0",
     "loader-utils": "^1.1.0",
     "memory-fs": "^0.5.0",
     "schema-utils": "^0.4.5",
     "ts-jest": "^29.0.3",
     "ts-node": "^8.10.2",
     "typescript": "4.8.4",
-    "webpack": "5.37.1",
+    "webpack": "^5.98.0",
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {

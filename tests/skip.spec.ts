@@ -35,7 +35,7 @@ describe('Skip Parser', () => {
 		const hasExport = output.includes('export default');
 		expect(hasExport).toBe(true);
 
-		const importString = "import {css} from 'lit";
+		const importString = "import {css} from 'lit-element";
 		expect(output.includes(importString)).toBe(true);
 	});
 

@@ -60,7 +60,7 @@ module.exports = {
 2. Include your .css or .scss or .less file in your JavaScript:
 
 ```javascript
-import {html, LitElement} from 'lit';
+import {html, LitElement} from 'lit-element';
 
 import Style1 from './style-1.scss';
 import Style2 from './style-2.css';
@@ -142,7 +142,7 @@ launch an express server @ localhost:3000.
 
 # Legacy Support
 
-The loader automatically injects code (e.g. `import {css} from 'lit';`) into your files, therefore, pay attention if you
+The loader automatically injects code (e.g. `import {css} from 'lit-element';`) into your files, therefore, pay attention if you
 need es5 / legacy browsers support. As [LambyPants](https://github.com/drdreo/lit-scss-loader/issues/3) mentioned, you
 might have to adopt your loaders configuration to also test for ```/\.js$|\.ts$|\.s(c|a)ss$/``` and transform it to your
 needed language support.
